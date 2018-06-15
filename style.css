@@ -18,7 +18,7 @@ font-family: 'Nothing You Could Do', cursive;
     top: 33vh;
     width: 100%;
     text-align: center;
-    font-size: 120px;
+    font-size: 100px;
 font-family: 'Nothing You Could Do', cursive;
     animation: mymove 3s;
     animation-iteration-count: 1;
@@ -37,7 +37,7 @@ font-family: 'Nothing You Could Do', cursive;
 h3{
   color:white;
 font-family: 'Nothing You Could Do', cursive;
-  font-size:80px;
+  font-size:60px;
   margin-bottom:10px;
   top: 50%;
   text-align:center;

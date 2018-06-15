@@ -1,7 +1,7 @@
 
 body{
 
-  font-size:40px;
+  font-size:30px;
   margin:0;
   padding:0;
   background:#fff;
@@ -127,7 +127,7 @@ h1{
   h2{
     color:white;
   font-family: 'Nothing You Could Do', cursive;
-    font-size:120px;
+    font-size:100px;
     margin-top:33vh;
     text-align: center;
     position:relative;
