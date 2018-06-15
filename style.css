@@ -4,7 +4,11 @@ body{
 }
 
 
-
+@font-face {
+   font-family: 'Sweet Patterson DEMO';
+   src: url(Sweet Patterson DEMO.eot);
+   src: local('Sweet Patterson DEMO'), url('Sweet Patterson DEMO.ttf') format('truetype');
+}
 
 h1{
   color:black;
