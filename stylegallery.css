@@ -16,7 +16,7 @@ overflow:scroll;
 
 
 .sidebar{
-  font-family:"Sweet Patterson DEMO";
+  font-family: 'Nothing You Could Do', cursive;
   position:fixed;
   top:0;
   left:-250px;
@@ -117,7 +117,7 @@ a:hover{
 
 h1{
     color:black;
-    font-family:"Sweet Patterson DEMO";
+    font-family: 'Nothing You Could Do', cursive;
     font-size:80px;
     margin-top:20px;
     text-align: center;
@@ -126,7 +126,7 @@ h1{
 
   h2{
     color:white;
-    font-family:"Sweet Patterson DEMO";
+  font-family: 'Nothing You Could Do', cursive;
     font-size:100px;
     margin-top:33vh;
     text-align: center;
