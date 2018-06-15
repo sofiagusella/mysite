@@ -6,7 +6,7 @@ body{
 
 h1{
   color:black;
-font-family: 'Kristi', cursive;
+font-family: 'Nothing You Could Do', cursive;
   font-size:80px;
   margin-top:20px;
   text-align: center;
@@ -19,7 +19,7 @@ font-family: 'Kristi', cursive;
     width: 100%;
     text-align: center;
     font-size: 150px;
-font-family: 'Kristi', cursive;
+font-family: 'Nothing You Could Do', cursive;
     animation: mymove 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -36,7 +36,7 @@ font-family: 'Kristi', cursive;
 
 h3{
   color:white;
-font-family: 'Kristi', cursive;
+font-family: 'Nothing You Could Do', cursive;
   font-size:80px;
   margin-bottom:10px;
   top: 50%;
