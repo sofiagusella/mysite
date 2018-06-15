@@ -6,7 +6,7 @@ body{
 
 h1{
   color:black;
-  font-family: 'Qwigley', cursive;
+font-family: 'Yellowtail', cursive;
   font-size:80px;
   margin-top:20px;
   text-align: center;
@@ -19,7 +19,7 @@ h1{
     width: 100%;
     text-align: center;
     font-size: 150px;
-  font-family: 'Qwigley', cursive;
+  font-family: 'Yellowtail', cursive;
     animation: mymove 3s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
@@ -36,7 +36,7 @@ h1{
 
 h3{
   color:white;
-  font-family: 'Qwigley', cursive;
+font-family: 'Yellowtail', cursive;
   font-size:80px;
   margin-bottom:10px;
   top: 50%;
