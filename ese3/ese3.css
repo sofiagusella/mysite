@@ -1,0 +1,65 @@
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.q {
+  background-color: green;
+  height: 33vh;
+  width: 33vh;
+}
+
+.fuori {
+  position: absolute;
+  left: 110%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.cprima {
+  background-color: blue;
+  height: 33vh;
+  width: 33vh;
+  border-radius: 50%;
+}
+
+.faiuscire {
+  animation: esci 1s linear;
+}
+
+.faientrare {
+  animation: entra 1s linear;
+}
+
+.trasformac {
+  height: 33vh;
+  width: 33vh;
+  background-color: red;
+  animation: trasformacerchio 1s linear;
+}
+
+.faigirare {
+  animation: giracnuovo 1s infinite linear;
+}
+.faiusciresecondo {
+  animation: escisecondo 1s linear;
+}
+@keyframes esci {
+  from{left: 50%; translate(-50%, -50%); }
+  to{left: 110%; background-color: white; translate(-50%, -50%); } }
+
+@keyframes escisecondo {
+  from{left: 50%; translate(-50%, -50%); }
+  to{left: 110%; background-color: white; translate(-50%, -50%); } }
+
+@keyframes entra {
+  from{left: 110%; background-color: white;}
+  to{left: 50%;} }
+
+@keyframes trasformacerchio {
+  from{translate(-50%, -50%); border-radius:50%; background-color: blue;}
+  to{translate(-50%, -50%); border-radius: 0%; background-color:red;} }
+
+@keyframes giracnuovo {
+  from{transform: translate(-50%, -50%) rotate(0deg);}
+  to{transform: translate(-50%, -50%) rotate(360deg);} }

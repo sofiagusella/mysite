@@ -1,0 +1,67 @@
+#quadrato{
+  height:33vh;
+  width:33vh;
+  position:absolute;
+  top:50%;
+  left:50%;
+  background-color:red;
+  transform:translate(-50%,-50%);
+}
+
+#quadratino{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+}
+
+.qino-off{
+  height:0vh;
+  width:0vh;
+}
+
+.qino-on{
+  height:16vh;
+  width:16vh;
+  background-color:yellow;
+}
+
+
+@keyframes ruota{
+  from{transform:translate(-50%,-50%) rotate(0);}
+  to{transform:translate(-50%,-50%) rotate(-225deg);}
+}
+
+.rotate{
+  animation:ruota 0.5s forwards;
+}
+
+
+.rotate-orario {
+  animation: orario 1s infinite;
+}
+
+.rotate-antiorario {
+  animation: antiorario 1s infinite;
+}
+
+
+@keyframes orario {
+  from {
+    transform: translate(-50%, -50%)
+rotate(0deg);
+}
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes antiorario {
+  from {
+    transform: translate(-50%, -50%)
+rotate(0deg);
+}
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
