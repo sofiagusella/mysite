@@ -8,6 +8,7 @@ body{
   overflow:hidden;
   background-image:url(img/spighe.JPG);
   background-size:100%;
+  overflow:scroll;
 }
 
 .sidebar{
